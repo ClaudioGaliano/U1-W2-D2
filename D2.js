@@ -16,10 +16,8 @@ console.log(biggerNumber)
 
 if (n1 > n2) {
   console.log('3 maggiore di 5')
-} else if (n2 > n1) {
-  console.log('5 maggiore di 3')
 } else {
-  console.log('undefined')
+  console.log('5 maggiore di 3')
 }
 
 /* ESERCIZIO 2
@@ -59,8 +57,8 @@ if (dividendo2 % 5 === 0) {
 }
 
 /* DOMANDA                                                                                                                                                    Check */
-// const answerEs3 = dividendo1 % 5 === 0 ? 'numero divisibile per 5' : dividendo2 % 5 !== 0 ? 'numero non divisibile per 5' : 'Nothing'
-// console.log(answerEs3)
+const answerEs3 = dividendo1 % 5 === 0 ? 'numero divisibile per 5' : dividendo1 % 5 !== 0 ? 'numero non divisibile per 5' : 'Nothing'
+console.log(answerEs3)
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
@@ -119,7 +117,7 @@ console.log(numArray);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 // const numbervalue = 5
-// if (console.log{typeof numbervalue === 'number')) {
+// if (typeof numbervalue === 'number')) {
 //   console.log('Il valore è un numero')
 // } else if (console.log typeof numbervalue !== 'number'){
 //   console.log('Il valore non è un numero')
@@ -220,11 +218,13 @@ console.log(myArray)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const index = myArray.indexOf(10);
+// const index = myArray.indexOf(10);
 
-if (index !== -1) {
-    myArray[index] = 100;
-}
+// if (index !== -1) {
+//     myArray[index] = 100;
+// }
 
+// console.log(myArray)
+
+myArray[9] = 100
 console.log(myArray)
-
