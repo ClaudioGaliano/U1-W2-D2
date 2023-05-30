@@ -208,10 +208,23 @@ console.log(me.skills)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const myArray = []
+console.log(myArray)
+
+myArray.push(1,2,3,4,5,6,7,8,9,10)
+
+console.log(myArray)
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const index = myArray.indexOf(10);
+
+if (index !== -1) {
+    myArray[index] = 100;
+}
+
+console.log(myArray)
 
